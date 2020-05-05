@@ -1,0 +1,9 @@
+DEPENDENCIES
+  logstash
+    git: https://github.com/ElAouane/logstash_cookbook.git
+    revision: c1a70acb7db7f74c8ed7c78e3a2e044817ab3464
+
+GRAPH
+  apt (7.3.0)
+  logstash (0.1.0)
+    apt (>= 0.0.0)
